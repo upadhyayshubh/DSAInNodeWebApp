@@ -5,7 +5,7 @@ const app = express();
 
 app.use("/api", GetFileRouter);
 
-const server = app.listen(5002, ()=>{
+const server = app.listen(5001, ()=>{
     console.log("listening....")
 })
 
